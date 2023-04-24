@@ -13,6 +13,7 @@ namespace Mod18
          Receiver receiver;
         // Определяем переменную внутри команды, для храннеия адреса
          string url;
+
         //Делаем команду в конструктора класса, на входе которого два параметра
         public CommandDownloadVideo(Receiver receiver, string url)
         {
